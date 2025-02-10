@@ -1,0 +1,29 @@
+{
+  "name": "fundamentos-react",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Este é um projeto simples de frontend em React que consiste em uma ferramenta de comentários. A ferramenta permite que os usuários criem comentarios em postagens ja postadas.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "cypress.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^4.3.4",
+    "cypress": "^14.0.2",
+    "vite": "^6.1.0"
+  }
+}
